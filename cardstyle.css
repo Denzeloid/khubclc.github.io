@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
+body {
+    background-color: black;
+}
 .column {
     float: left;
     width: 30%;
@@ -12,13 +15,19 @@
 }
 
 .card {
-    padding: 10px;
+    padding: 10px !important;
+    border: 2px !important;
+    border-width: 2px !important;
+    background-color: #ffffff !important;
+    border-color: #000000 !important;
+    border-radius: 10px !important;
 }
-.card-body {
-    border-width: 2px;
-    background-color: #ffffff;
-    border-color: #223C60;
-    border-radius: 10px;
+
+
+.card-img {
+    margin: 0.1%;
+    width: 39rem;
+    height: 250px;
 }
 
 .card-title {
@@ -27,7 +36,7 @@
 
 .card-text {
     color: black;
-    font-family: 'Metrophobic', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 .btn btn-primary {
     color:#223C60;    
@@ -37,5 +46,5 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     color: #ffffff; 
-    font-family: 'Metrophobic', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
