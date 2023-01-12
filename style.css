@@ -1,0 +1,58 @@
+/**
+
+Colors: 
+
+Misty Blue: #C3CEDA
+Blue Gray: #738FA7
+Navy Blue: #223C60
+
+Champagne: #F2D6C0
+Peach: #E5B990
+Desert Sun: #D79B70
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+/** font-family: 'Metrophobic', sans-serif; **/
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(236, 239, 241);
+}
+
+nav {
+    background-color: #223C60;
+    color: #fff;
+    padding-top: 12px;
+    text-align: left;
+    padding-bottom: 12px;
+    box-shadow: 0 2 4 4 #000;
+}
+
+nav h1 {
+    line-height: 40px;
+    padding-left: 1.5%;
+    font-family: 'Raleway', cursive;
+    text-shadow: 2px 2px 1.5px #000;
+    vertical-align: middle;
+}
+
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url(clc.jpg);
+    background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 90vh;
+}
+
+.white-text {
+    color:#fff;
+}
+
+.heading-2 {
+    font-size: 100px;
+    font-family: 'Raleway', cursive;
+    font-weight: 200;
+}
