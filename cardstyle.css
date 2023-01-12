@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
-.column {
+.col {
     float: left;
     width: 30%;
 }
@@ -15,6 +15,7 @@ body {
 }
 
 .card {
+    margin: 10px;
     padding: 10px !important;
     border: 2px !important;
     border-width: 2px !important;
@@ -23,10 +24,37 @@ body {
     border-radius: 10px !important;
 }
 
+.box:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-136deg, #000000 11%, #04619F 149% );
+    transform: translate3d(30px, 24px, 0) scale(0.93);
+    filter: blur(20px);
+    opacity: var(0.8);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+.box::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+}
 
 .card-img {
     margin: 0.1%;
-    width: 39rem;
+    width: 23.5rem;
     height: 250px;
 }
 
