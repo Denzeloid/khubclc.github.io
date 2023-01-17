@@ -20,7 +20,7 @@ body {
 }
 
 nav {
-    background-color: #223C60;
+    background-color: #4182bb;
     color: #fff;
     padding-top: 20px;
     text-align: left;
@@ -32,7 +32,6 @@ nav h1 {
     line-height: 40px;
     padding-left: 1.5%;
     font-family: 'Raleway', cursive;
-    text-shadow: 2px 2px 1.5px #000;
     vertical-align: middle;
 }
 
@@ -49,7 +48,7 @@ main {
     background-size: cover;
     background-position: center center;
     position: relative;
-    height: 90vh;
+    height: 91vh;
 }
 
 .log-in {
