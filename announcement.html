@@ -24,18 +24,29 @@
         <h1 class="fw-bold">Announcements</h1>
         <p class="text-bg-info p-3 rounded-pill text-wrap">No announcements have been posted yet.</p>
     </div>
-    <div class="btn-group dropup float-end">
-    <button type="button" class="btn btn-secondary dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
-      Jump to
-    </button>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">1</a></li>
-        <li><a class="dropdown-item" href="#">2</a></li>
-        <li><a class="dropdown-item" href="#">3</a></li>
-    </ul>
-    </div>
-    <ul class="dropdown-menu">
-    </ul>
-  </div>
-  
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#announcement" role="button" aria-expanded="false" aria-controls="announcement">Post Announcement</a>
+    <div class="row">
+    <div class="col">
+    <div class="collapse multi-collapse" id="announcement">
+      <div class="card card-body">
+        <div class="mb-3">
+            <label for="text1" class="form-label">Subject</label>
+            <textarea class="form-control" id="text1" rows="1"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="text2" class="form-label">Message</label>
+            <textarea class="form-control" id="text2" rows="3"></textarea>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="input1">Upload</label>
+            <input type="file" class="form-control" id="input1">
+          </div>
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button" id="button1">Post</button>
+            <button class="btn btn-outline-secondary" type="button" id="button1">Cancel</button>
+        </div>
+      </div>
+      </div>
+          
+
 
