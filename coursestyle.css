@@ -12,8 +12,14 @@ ul {
     display: table-cell;
 }
 
-.activity {
+.activity, .pageheader {
     display: block;
+}
+
+.pagetitle {
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    font-family: 'Arimo', sans-serif;
 }
 
 .activityblock img.activityicon {
@@ -25,12 +31,16 @@ ul {
 .iconlarge {
     width: 50px;
     height: 50px;
+    border: #000000;
+    border-radius: 10px;
+    background-color: rgba(46, 48, 58, 0.8);
 }
 
-.title {
+span.title {
+    margin-top: 1rem;
     font-weight: 500;
     font-family: 'Arimo', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #000000;
     display: inline-flex;
     align-items: center;
