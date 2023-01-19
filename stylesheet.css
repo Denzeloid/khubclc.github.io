@@ -19,6 +19,13 @@ body {
     font-family: Arimo, sans-serif;
 }
 
+body.home {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(207, 207, 207);
+    font-family: Arimo, sans-serif;
+}
+
 nav {
     background-color: #4182bb;
     color: #fff;
@@ -42,13 +49,17 @@ nav h1 {
 }
 */
 
-main {
+main.index {
     background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url(https://raw.githubusercontent.com/Denzeloid/hosting/main/pshs.png);
     background-size: cover;
     background-size: cover;
     background-position: center center;
     position: relative;
     height: 91vh;
+}
+
+.main-container {
+    background-color: #fff;
 }
 
 .log-in {
