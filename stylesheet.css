@@ -16,19 +16,12 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: rgb(236, 239, 241);
-    font-family: Arimo, sans-serif;
-}
-
-body.home {
-    margin: 0;
-    overflow-x: hidden;
-    background-color: rgb(207, 207, 207);
-    font-family: Arimo, sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 nav {
-    background-color: #4182bb;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     padding-top: 20px;
     text-align: left;
     padding-bottom: 20px;
@@ -49,17 +42,15 @@ nav h1 {
 }
 */
 
+/* INDEX PAGE */
 main.index {
     background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url(https://raw.githubusercontent.com/Denzeloid/hosting/main/pshs.png);
-    background-size: cover;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     position: relative;
-    height: 91vh;
-}
-
-.main-container {
-    background-color: #fff;
+    padding-top: 10em;
+    padding-bottom: 10em
 }
 
 .log-in {
@@ -69,10 +60,6 @@ main.index {
     background-color: rgb(248, 248, 248);
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-.orange {
-    margin-top: 13%;
 }
 
 .main-msg {
@@ -91,6 +78,112 @@ main.index {
     font-size: 12px;
     color: rgb(139, 139, 139);
 }
+
+/**
+
+/** HOME PAGE **/
+.home-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/clc-campus.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 38em;
+    border-radius: 15px;
+}
+
+.btn-outline-light a:hover {
+    color:#000
+}
+
+img.home-icons {
+    width: 2.7em;
+    background-color: #72b4fc;
+    padding: 0.17em;
+    border: solid #72b4fc 1px;
+    border-radius: 15px;
+}
+
+/** CALENDAR **/
+
+ul {
+    list-style-type: none;
+    font-family: Raleway, sans-serif;
+}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #223C60;
+  text-align: center;
+  border: solid #223C60 1px;
+  border-radius: 15px 15px 0px 0px;
+  font-family: 'Arimo', sans-serif;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #223C60;
+  color: white !important
+}
+/** END OF HOME PAGE **/
 
 .raleway {
     font-family: 'Raleway', cursive;
@@ -120,4 +213,12 @@ main.index {
     font-size: 100px;
     font-family: 'Raleway', cursive;
     font-weight: 200;
+}
+
+.card {
+    border-radius: 15px !important;
+}
+
+.orange {
+    margin-top: 13%;
 }
