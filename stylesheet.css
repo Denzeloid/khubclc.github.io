@@ -28,7 +28,7 @@ nav {
     box-shadow: 0 2 4 4 #000;
 }
 
-nav h1 {
+nav a, nav .text-primary {
     line-height: 40px;
     padding-left: 1.5%;
     font-family: 'Raleway', cursive;
@@ -221,4 +221,14 @@ color: white;
 
 .orange {
     margin-top: 13%;
+}
+
+.line-display {
+    display: inline-block;
+    border: solid #0d6efd 1px;
+    border-radius: 12px;
+    background-color: #0d6efd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
 }
