@@ -8,6 +8,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .footer1.border-top{
+    border-top: var(--bs-border-width) var(--bs-border-style) rgb(126, 126, 139) !important;
+  }
+  
+  .footer1 ::after, ::before {
+  box-sizing: border-box;
+}
+  .footer1.container-fluid {
+    background-color: rgb(86, 84, 96) !important;
+    color: #b4b5be !important;
+    margin: 0px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  .footer1.nav {
+    --bs-nav-link-hover-color: #b4b5be !important;
+  }
+
+  .footer1.nav-link {
+    color: rgb(126, 126, 139)!important;
+  }
+    </style>
 </head>
 
 <body>
@@ -135,6 +159,31 @@
             </div>
         </li>
     </ul>
-
+    <div class="footer1 container-fluid">
+        <footer class="py-5 footer1">
+          <div class="row">
+            <div class=" col-md-5 mb-3 my-2">
+              <h5>Philippine Science High School -
+                Central Luzon Campus</h5>
+              <p>5GRM+WWJ, Lily Hill, Clark Freeport, Zone, Pampanga</p>
+              <h5>Contact us</h5>
+                <p>For more information, please email registrar@clc.pshs.edu.ph, call the registrar at (045) 499 0136 local 106 / 0955 551 7783 / 09422660139</p>
+            </div>
+    
+    
+            <div class="col-md-5 offset-md-5 mb-3 mx-auto my-2 footer1">
+              <h5>Currently logged in</h5>
+              <a href="index.html"
+              class="btn btn-primary">Log out</a>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 footer1 border-top">
+            <ul class="list-unstyled d-flex">
+              <li><a href="https://twitter.com/PSHS_CLC"><img src="https://github.com/Denzeloid/khubclc.github.io/blob/main/photos/A71F5837-ABE8-46DF-A7EA-B6BA14295968.png?raw=true" alt="Twitter" width="30" height="30"></a></li>
+              <li><a href="https://web.facebook.com/pshsclc?_rdc=1&_rdr"><img src="https://github.com/Denzeloid/khubclc.github.io/blob/main/photos/07E3FC11-468D-4EAD-B337-C647C7510EB7.png?raw=true" alt="Facebook" width="30" height="30"></a></li>
+            </ul>
+          </div>
+      </footer>
+    </div>
 </body>
 </html>
