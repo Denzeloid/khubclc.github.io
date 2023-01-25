@@ -1,7 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(236, 239, 241);
+    font-family: 'Arimo', sans-serif;
+}
+
+label {
+    font-family: 'Arimo', sans-serif;
+}
+
+nav {
+    background-color: #fff;
+    color: #000;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+    box-shadow: 0 2 4 4 #000;
+}
+
+nav a, nav .text-primary {
+    line-height: 40px;
+    padding-left: 1.5%;
+    font-family: 'Raleway', cursive;
+    vertical-align: middle;
+}
+
 }
 .col {
     float: left;
