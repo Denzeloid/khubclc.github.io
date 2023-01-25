@@ -4,184 +4,235 @@
     <title>Knowledge Hub - About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href=stylesheet.css>
+    <link rel="stylesheet" href="stylesheet.css">
     <style>
       @media screen and (max-width: 800px) {
             .nav-item {
                 font-size: 18px;
             }
         }
+        a {
+    color: white;
+    text-decoration: none;
+}
+    .footer1.border-top{
+      border-top: var(--bs-border-width) var(--bs-border-style) rgb(126, 126, 139) !important;
+    }
+    
+    .footer1 ::after, ::before {
+    box-sizing: border-box;
+}
+    .footer1.container-fluid {
+      background-color: rgb(86, 84, 96) !important;
+      color: #b4b5be !important;
+      margin: 0px !important;
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+    }
+
+    .footer1.nav {
+      --bs-nav-link-hover-color: #b4b5be !important;
+    }
+
+    .footer1.nav-link {
+      color: rgb(126, 126, 139)!important;
+    }
     </style>
 </head>
-  <body class="home">
-    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary sticky-top raleway">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-              <img src="https://raw.githubusercontent.com/Denzeloid/CS-GROUP-1-KHUB-REDESIGN/main/photos/PSHS_System_Logo.png?token=GHSAT0AAAAAAB5GIXANM27A6ECD3LXQLUBUY6FKX2A" alt="pshslogo" class="logo" style="width: 3em;">
-          </a>
-          <button class="navbar-toggler text-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbartop" aria-controls="navbartop" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      <div class="collapse navbar navbar-collapse sticky-top" id="navbartop">
-          <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link" href="home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="dashboard.html"> My courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+    <body class="home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary sticky-top raleway">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://raw.githubusercontent.com/Denzeloid/CS-GROUP-1-KHUB-REDESIGN/main/photos/PSHS_System_Logo.png?token=GHSAT0AAAAAAB5GIXANM27A6ECD3LXQLUBUY6FKX2A" alt="pshslogo" class="logo" style="width: 3em;">
+            </a>
+            <button class="navbar-toggler text-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbartop" aria-controls="navbartop" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar navbar-collapse sticky-top" id="navbartop">
+            <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
                 </li>
-          </ul>
-      </div>
-      </div>
-  </nav>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-      <div class="container-fluid">
-          <div class="navbar d-none d-sm-block 2ndnavbar">
-              <ul class="nav">
-                  <li class="nav-item">
-                      <a class="nav-link" href="dashbord.html">Course</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html"> My courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
                   </li>
-                  <li class="nav-item">
-                      <div class="dropdown">
-                          <button class="btn text-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Grades
-                          </button>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="user-report-biology.html">Biology 1</a></li>
-                                <li><a class="dropdown-item" href="user-report-chemistry.html">Chemistry 1</a><li>
-                                <li><a class="dropdown-item" href="user-report-compsci.html">Computer Science 3</a></li>
-                                <li><a class="dropdown-item" href="user-report-english.html">English 3</a></li>
-                                <li><a class="dropdown-item" href="grades-overview-report.html">Overview Report</a></li>
-                              </ul>
-                      </div>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-  <nav class="navbar 2ndnavbar">
-      <ul class="nav d-block d-sm-none">
-          <li class="nav-item">
-              <a class="nav-link" href="dashboard.html">Course</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Grades
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navdropdown">
-                <li><a class="dropdown-item" href="user-report-biology.html">Biology 1</a></li>
-                <li><a class="dropdown-item" href="user-report-chemistry.html">Chemistry 1</a><li>
-                <li><a class="dropdown-item" href="user-report-compsci.html">Computer Science 3</a></li>
-                <li><a class="dropdown-item" href="user-report-english.html">English 3</a></li>
-                <li><a class="dropdown-item" href="grades-overview-report.html">Overview Report</a></li>
-              </ul>
-          </li>
-      </ul>
-  </nav>
-
-<div class="container">
-    <div class="d-flex justify-content-center p-2 py-4">
-        <h1 class="raleway">Group - 1</h1> 
-      </div>
-<div class="row mb-5 justify-content-center">
-  <div class="col-md mx-2 justify-content-center">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            Denzel
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <div class="d-flex justify-content-center">
-              <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/IMG_1760.JPG" alt="denzel's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
-            </div>  
-            <p>
-              Denzel Carreon created the log in and home pages. He took initiative in making the project. He is also the Turing Club's Co-Communications Manager and CodesterClub's Systems Pod Captain. He loves Genshin Impact, chemistry, computer science, and fashion.
-            </p>
+            </ul>
+        </div>
+        </div>
+    </nav>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="navbar d-none d-sm-block 2ndnavbar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashbord.html">Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn text-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Grades
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="user-report-biology.html">Biology 1</a></li>
+                                  <li><a class="dropdown-item" href="user-report-chemistry.html">Chemistry 1</a><li>
+                                  <li><a class="dropdown-item" href="user-report-compsci.html">Computer Science 3</a></li>
+                                  <li><a class="dropdown-item" href="user-report-english.html">English 3</a></li>
+                                  <li><a class="dropdown-item" href="grades-overview-report.html">Overview Report</a></li>
+                                </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <nav class="navbar 2ndnavbar">
+        <ul class="nav d-block d-sm-none">
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">Course</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Grades
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navdropdown">
+                  <li><a class="dropdown-item" href="user-report-biology.html">Biology 1</a></li>
+                  <li><a class="dropdown-item" href="user-report-chemistry.html">Chemistry 1</a><li>
+                  <li><a class="dropdown-item" href="user-report-compsci.html">Computer Science 3</a></li>
+                  <li><a class="dropdown-item" href="user-report-english.html">English 3</a></li>
+                  <li><a class="dropdown-item" href="grades-overview-report.html">Overview Report</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+  
+  <div class="container">
+      <div class="d-flex justify-content-center p-2 py-4">
+          <h1 class="raleway">Group - 1</h1> 
+        </div>
+  <div class="row mb-5 justify-content-center">
+    <div class="col-md mx-2 justify-content-center">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Denzel
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/IMG_1760.JPG" alt="denzel's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
+              </div>  
+              <p>
+                Denzel Carreon created the log in and home pages. He took initiative in making the project. He is also the Turing Club's Co-Communications Manager and CodesterClub's Systems Pod Captain. He loves Genshin Impact, chemistry, computer science, and fashion.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Mika
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <div class="d-flex justify-content-center">
-              <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/Mika.png" alt="mika's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
-            </div>  
-            <p>
-              Mikaela Belicena helped contribute by making all the icons for this K-Hub redesign, all made from hand; including the simple footer that can be seen at the bottom. She is a swiftie at heart and wont stop playing Genshin anytime soon. 
-            </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Mika
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/Mika.png" alt="mika's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
+              </div>  
+              <p>
+                Mikaela Belicena helped contribute by making all the icons for this K-Hub redesign, all made from hand; including the simple footer that can be seen at the bottom. She is a swiftie at heart and wont stop playing Genshin anytime soon. 
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Lucas
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <div class="d-flex justify-content-center">
-              <img src="link" alt="lucas' photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
-            </div>  
-            <p>
-              text
-            </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Lucas
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="d-flex justify-content-center">
+                <img src="link" alt="lucas' photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
+              </div>  
+              <p>
+                text
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            Nico
-          </button>
-        </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <div class="d-flex justify-content-center">
-              <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/Nico.png" alt="nico's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
-            </div>  
-            <p>
-              MY man I just helped with the grades, timeline, and other stuff I could get my hands on. 
-            </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Nico
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/Nico.png" alt="nico's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
+              </div>  
+              <p>
+                MY man I just helped with the grades, timeline, and other stuff I could get my hands on. 
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Czevie
-          </button>
-        </h2>
-        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <div class="d-flex justify-content-center">
-              <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/czevie.png" alt="czevie's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
-            </div>  
-            <p>
-              Czevie Sigue helped with quiz page, grades page and a little bit with navbar, announcments and anything i can get my hands on. She's really interested in Kpop right now especially Le Sserafim
-            </p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Czevie
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://raw.githubusercontent.com/Denzeloid/khubclc.github.io/main/photos/czevie.png" alt="czevie's photo" style="width:300px; border-radius: 15px;" class="p-2 mb-4">
+              </div>  
+              <p>
+                Czevie Sigue helped with quiz page, grades page and a little bit with navbar, announcments and anything i can get my hands on. She's really interested in Kpop right now especially Le Sserafim
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-</div>
-</body>
+  </div>
+  </div>
+      <div class="footer1 container-fluid">
+        <footer class="py-5 footer1">
+          <div class="row">
+            <div class=" col-md-5 mb-3 my-2">
+              <h5>Philippine Science High School -
+                Central Luzon Campus</h5>
+              <p>5GRM+WWJ, Lily Hill, Clark Freeport, Zone, Pampanga</p>
+              <h5>Contact us</h5>
+                <p>For more information, please email registrar@clc.pshs.edu.ph, call the registrar at (045) 499 0136 local 106 / 0955 551 7783 / 09422660139</p>
+            </div>
+    
+            <div class="col-md-5 offset-md-5 mb-3 mx-auto my-2 footer1">
+              <h5>Currently logged in</h5>
+              <a href="index.html"
+              class="btn btn-primary">Log out</a>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 footer1 border-top">
+            <ul class="list-unstyled d-flex">
+              <li><a href="https://twitter.com/PSHS_CLC"><img src="https://github.com/Denzeloid/khubclc.github.io/blob/main/photos/A71F5837-ABE8-46DF-A7EA-B6BA14295968.png?raw=true" alt="Twitter" width="30" height="30"></a></li>
+              <li><a href="https://web.facebook.com/pshsclc?_rdc=1&_rdr"><img src="https://github.com/Denzeloid/khubclc.github.io/blob/main/photos/07E3FC11-468D-4EAD-B337-C647C7510EB7.png?raw=true" alt="Facebook" width="30" height="30"></a></li>
+            </ul>
+          </div>
+      </footer>
+    </div>
+  </body>
 </html>
