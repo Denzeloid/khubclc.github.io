@@ -305,3 +305,12 @@ li.activity {
     text-align: left;
     clear: both;
 }
+
+table > ul {
+    list-style-type: none;
+}
+
+footer1 {
+    color: #fff;
+}
+    
