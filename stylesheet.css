@@ -206,7 +206,7 @@ color: white;
 }
 
 .white-text {
-    color:#fff;
+    color:#fff !important;
 }
 
 .orange-text {
